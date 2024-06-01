@@ -9,3 +9,13 @@
     font-weight: normal ;
     font-style: normal;
 }
+
+.hero{
+    justify-content: space-between;
+    flex-direction: row;
+    direction: rtl;
+}
+.level-left{
+    flex-direction: column;
+
+}
