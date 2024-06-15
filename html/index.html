@@ -1,45 +1,313 @@
 <html lang="fa">
 
 <head>
-  <link rel="stylesheet" href="../css/monta.css">
-  <link rel="stylesheet" href="../css/styles.css">
-  <meta charset="UTF-8">
-  <meta name="description" content="educational web">
-  <meta name="keywords" content="HTML, education, java">
-  <meta name="author" content="Danial Vafadar">
-  <title>Practice 2</title>
+    <link rel="stylesheet" href="../css/monta.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="educational web">
+    <meta name="keywords" content="HTML, education, java">
+    <meta name="author" content="Danial Vafadar">
+    <title>site</title>
 </head>
 
 <body>
-  <div class="hero">
-    <div class="box">
-      <P> </P>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column">
+                            <label class="label"> <a href="https://google.com" target="_blank"> انتخاب سرفصل</a></label>
+                        </div>
+                        <div class="column">
+                            <label class="label"> <a href="https://google.com" target="_blank"> برای انتخاب کلیک
+                                    کنید</a></label>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <p>انتخاب سرفصل</p>
+                        </div>
+                        <div class="column">
+                            <p>برای انتخاب کلیک کنید</p>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <label class="radio">
+                                <input type="radio" name="used"> تستی
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="used"> تشریحی
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column">
+                            <label class="label">مرجع سوال</label>
+                        </div>
+                        <div class="column">
+                            <label class="label">از همه مراجع</label>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="field">
+                                <label class="checkbox">
+                                    <input type="checkbox"> آسان
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox"> متوسط
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox"> سخت
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <label class="radio">
+                                <input type="radio" name="used"> استفاده شده ها
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="used"> تا کانون استفاده نشده ها
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="used"> نشاندارها
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div class="field">
+                        <label class="label">از سال</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="1368">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">تا سال</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="1399">
+                        </div>
+                    </div>
+                    <button class="button is-primary">جستجو</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <div class="box">
+                            <h1 class="title"> عنوان</h1>
+                            <p>زیر تیتر</p>
+                            <button class="button is-black">دکمه اصلی صفحه</button>
+                        </div>
+                        <a class="buttons is-centered" href="https://google.com" target="_blank">ارسال دعوتنامه</a>
+                        <button class="button is-info">بازگشت</button>
+                        <button class="button is-success">گزارش آزمون</button>
+                        <br>
+                        <div class="box">
+                            <p>انتخاب مؤلف</p>
+                            <button class="button is-light">
+                                <span class="icon">
+                                    <img src="../img/1.jpg">
+                                </span>
+                                آقای احمد احمدی
+                            </button>
+                            <button class="button is-light">
+                                <span class="icon">
+                                    <img src="../img/2.png">
+                                </span>
+                                خانم صدف گوهری
+                            </button>
+                            <button class="button is-light">
+                                <span class="icon">
+                                    <img src="../img/3.png">
+                                </span>
+                                آقای محمد ادیبی
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-three-quarters">
+                    <div class="box has-centered-children">
+                        <div class="box has-background-success">
+                            <p>تست ستون اول</p>
+                            <button class="button">عرض خودکار</button>
+                            <button class="button">عرض خودکار</button>
+                        </div>
+                        <div class="box has-background-warning">
+                            <p>تست ستون اول</p>
+                            <button class="button">نصف عرض</button>
+                            <button class="button">یک سوم</button>
+                            <button class="button">یک سوم</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="column">
+                            <div class="box has-centered-children">
+                                <div class="field">
+                                    <label class="label">آسان</label>
+                                    <input class="input is-success" type="text">
+                                </div>
+                                <div class="field">
+                                    <label class="label">متوسط متوسط</label>
+                                    <input class="input is-warning" type="text">
+                                </div>
+                                <div class="field">
+                                    <label class="label">سخت</label>
+                                    <input class="input is-danger" type="text">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="box">
+                                    <div class="field">
+                                        <label class="label has-background-primary">آسان</label>
+                                        <input class="input is-success" type="text">
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">متوسط متوسط</label>
+                                        <input class="input is-warning" type="text">
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">سخت</label>
+                                        <input class="input is-danger" type="text">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="columns">
+            <div class="column is-full">
+                <div class="box is-custom">
+                    <button class="button">یک ستون</button>
+                    <button class="button">یک ستون دوم</button>
+                    <button class="button">نصف عرض</button>
+                    <button class="button">نصف عرض</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column is-half">
+                <div class="box">
+                    <label class="label">تست ستون اول</label>
+                    <button class="button is-success">عرض خودکار</button>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div class="box">
+                    <label class="label">تست ستون دوم</label>
+                    <button class="button is-success">عرض خودکار</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <div class="box">
+                    <div class="field">
+                        <label class="label">آسان</label>
+                        <input class="input is-success" type="text">
+                    </div>
+                    <div class="field">
+                        <label class="label">متوسط متوسط</label>
+                        <input class="input is-warning" type="text">
+                    </div>
+                    <div class="field">
+                        <label class="label">سخت</label>
+                        <input class="input is-danger" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <label class="label">عنوان</label>
+                    <button class="button is-primary custom-button">دکمه اصلی صفحه</button>
+                    <button class="button is-link custom-button">ارسال دعوت نامه</button>
+                    <button class="button is-warning custom-button">گزارش آزمون</button>
+                    <button class="button is-danger custom-button">بازگشت</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <div class="box">
+                    <label class="label">انتخاب مولف</label>
+                    <div class="field">
+                        <button class="button is-active">آقای احمدی</button>
+                        <label class="checkbox">
+                            <input type="checkbox"> خانم صدیق گوهری
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox"> آقای محمد ادبی
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <label class="label">نمونه کنترل</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="نام درس / نام استاد">
+                    </div>
+                    <button class="button is-primary">جستجو</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="level">
+            <div class="level-left">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="level-right">
+                <p>ALi</p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>Don't Worry Be Happy</p>
+            </div>
+        </footer>
     </div>
-    <div class="box">
-      ali2
-    </div>
-    <div class="box">
-      ali3
-    </div>
-  </div>
-  </head>
-  <div class="is-clickable temp">
-    <p>tessssssssssssst</p>
-    <p>تست</p>
-  </div>
-  <div class="level">
-    <div class="level-left">
-     <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-    </div>
-    <div class="level-right">
-      <p>ALi</p>
-    </div>
-  </div>
 </body>
 
 </html>
