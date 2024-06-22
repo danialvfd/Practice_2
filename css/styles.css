@@ -19,3 +19,14 @@
     flex-direction: column;
 
 }
+:root{
+    --primary-color: hwb(152 9% 32% / 0.689);
+    --font-size-large: 1.5rem;
+    --padding: 15px;
+}
+
+.button.is-rounded {
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    font-size: var(--font-size-large);
+}
