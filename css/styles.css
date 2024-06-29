@@ -1,3 +1,11 @@
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "iranyekan", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
 .temp {
     background-color: green;
     font-family: 'dana';
@@ -48,33 +56,7 @@
 }
 
 .tag-full-width {
-    --bulma-tag-h: var(--bulma-scheme-h);
-    --bulma-tag-s: var(--bulma-scheme-s);
-    --bulma-tag-background-l: var(--bulma-background-l);
-    --bulma-tag-background-l-delta: 0%;
-    --bulma-tag-hover-background-l-delta: var(--bulma-hover-background-l-delta);
-    --bulma-tag-active-background-l-delta: var(--bulma-active-background-l-delta);
-    --bulma-tag-color-l: var(--bulma-text-l);
-    --bulma-tag-radius: var(--bulma-radius);
-    --bulma-tag-delete-margin: 1px;
-    align-items: center;
     background-color:aliceblue;
-    border-radius: var(--bulma-radius);
-    color: hsl(var(--bulma-tag-h), var(--bulma-tag-s), var(--bulma-tag-color-l));
-    display: inline-flex;
-    font-size: var(--bulma-size-small);
-    height: 2em;
-    justify-content: center;
-    line-height: 1.5;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    white-space: nowrap;
-    flex-grow: 1;
-    text-align: center;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
   }
 
   .input-tag-container {
