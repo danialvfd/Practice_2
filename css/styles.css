@@ -30,3 +30,60 @@
     padding: var(--padding);
     font-size: var(--font-size-large);
 }
+
+.box-in-box{
+    --bulma-box-background-color: var(--bulma-scheme-main);
+    --bulma-box-color: var(--bulma-text);
+    --bulma-box-radius: var(--bulma-radius-large);
+    --bulma-box-shadow: var(--bulma-shadow);
+    --bulma-box-padding: 1.25rem;
+    --bulma-box-link-hover-shadow: 0 0.5em 1em -0.125em hsla(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.1), 0 0 0 1px var(--bulma-link);
+    --bulma-box-link-active-shadow: inset 0 1px 2px hsla(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.2), 0 0 0 1px var(--bulma-link);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.tag-full-width {
+    --bulma-tag-h: var(--bulma-scheme-h);
+    --bulma-tag-s: var(--bulma-scheme-s);
+    --bulma-tag-background-l: var(--bulma-background-l);
+    --bulma-tag-background-l-delta: 0%;
+    --bulma-tag-hover-background-l-delta: var(--bulma-hover-background-l-delta);
+    --bulma-tag-active-background-l-delta: var(--bulma-active-background-l-delta);
+    --bulma-tag-color-l: var(--bulma-text-l);
+    --bulma-tag-radius: var(--bulma-radius);
+    --bulma-tag-delete-margin: 1px;
+    align-items: center;
+    background-color:aliceblue;
+    border-radius: var(--bulma-radius);
+    color: hsl(var(--bulma-tag-h), var(--bulma-tag-s), var(--bulma-tag-color-l));
+    display: inline-flex;
+    font-size: var(--bulma-size-small);
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .input-tag-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.input-tag-container .input {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+}

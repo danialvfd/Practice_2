@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="../css/monta.css">
     <link rel="stylesheet" href="../css/bulma.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="educational web">
@@ -12,28 +15,22 @@
     <title>site</title>
 </head>
 
-<body>
-    <div class="container">
-        <div class="columns is-4">
+<body class="has-background-dark">
+    <div class="section">
+        <div class="columns">
             <div class="column">
                 <div class="box">
-                    <div class="fixed-grid has-2-cols">
-                        <div class="grid">
-                            <div class="cell">
-                                <label class="label"> <a href="https://google.com" target="_blank"> انتخاب سرفصل</a></label>
-                            </div>
-                            <div class="cell">
-                                <label class="label"> <a href="https://google.com" target="_blank"> برای انتخاب کلیک
-                                        کنید</a></label>
-                            </div>
+                    <div class="box-in-box has-background-light">
+                        <div class="is-flex is-justify-content-space-between">
+                            <p class="has-text-link"><a href="https://google.com" target="_blank">انتخاب سر فصل</a></p>
+                            <p class="has-text-link"><a href="https://google.com" target="_blank">برای انتخاب کلیک
+                                    کنید.</a></p>
                         </div>
                     </div>
-                    <div class="fixed-grid has-2-cols">
-                        <div class="cell">
-                            <p>انتخاب سرفصل</p>
-                        </div>
-                        <div class="cell">
-                            <p>برای انتخاب کلیک کنید</p>
+                    <div class="box-in-box has-background-light">
+                        <div class="is-flex is-justify-content-space-between">
+                            <p>انتخاب سر فصل</p>
+                            <p>برای انتخاب کلیک کنید.</p>
                         </div>
                     </div>
                     <div class="grid">
@@ -51,21 +48,19 @@
 
             <div class="column">
                 <div class="box">
-                    <div class="columns">
-                        <div class="column">
-                            <label class="label">مرجع سوال</label>
-                        </div>
-                        <div class="column">
-                            <label class="label">از همه مراجع</label>
+                    <div class="box-in-box has-background-light">
+                        <div class="is-flex is-justify-content-space-between">
+                            <p>مرجع سوال</p>
+                            <p>از همه مراجع</p>
                         </div>
                     </div>
                     <div class="columns">
                         <div class="column">
                             <div class="field">
-                                <label class="checkbox">
+                                <label class="checkbox ml-4">
                                     <input type="checkbox"> آسان
                                 </label>
-                                <label class="checkbox">
+                                <label class="checkbox ml-4">
                                     <input type="checkbox"> متوسط
                                 </label>
                                 <label class="checkbox">
@@ -91,223 +86,156 @@
             </div>
             <div class="column">
                 <div class="box">
-                    <div class="field">
-                        <label class="label">از سال</label>
-                        <div class="control">
-                            <input class="input" type="text" placeholder="1368">
+                    <div class="box-in-box has-background-light">
+                        <div class="is-flex is-justify-content-space-between">
+                            <p class="has-text-link"><a href="https://google.com" target="_blank">از سال</a></p>
+                            <p class="has-text-link"><a href="https://google.com" target="_blank">1368</a></p>
                         </div>
                     </div>
-                    <div class="field">
-                        <label class="label">تا سال</label>
-                        <div class="control">
-                            <input class="input" type="text" placeholder="1399">
+                    <div class="box-in-box has-background-light">
+                        <div class="is-flex is-justify-content-space-between">
+                            <p>از سال</p>
+                            <p>1399</p>
                         </div>
                     </div>
-                    <button class="button is-primary">جستجو</button>
+                    <button class="button is-primary is-fullwidth">جستجو</button>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
-        <div class="container">
-            <div class="columns">
-                <div class="column">
+    <div class="section">
+        <div class="columns">
+            <div class="column">
+                <div class="box">
                     <div class="box">
-                        <div class="box">
-                            <h1 class="title"> عنوان</h1>
-                            <p>زیر تیتر</p>
-                            <button class="button is-black">دکمه اصلی صفحه</button>
-                        </div>
-                        <a class="buttons is-centered" href="https://google.com" target="_blank">ارسال دعوتنامه</a>
-                        <button class="button is-info">بازگشت</button>
-                        <button class="button is-success">گزارش آزمون</button>
-                        
-                        <div class="box">
-                            <p>انتخاب مؤلف</p>
-                            <button class="button is-light">
-                                <span class="icon">
-                                    <img src="../img/1.jpg">
-                                </span>
-                                <span>آقای احمد احمدی</span>
-                            </button>
-                            <button class="button is-light">
-                                <span class="icon">
-                                    <img src="../img/2.png">
-                                </span>
-                            <span>خانم صدف گوهری</span>
-                            </button>
-                            <button class="button is-light">
-                                <span class="icon">
-                                    <img src="../img/3.png">
-                                </span>
-                            <span>آقای محمد ادیبی</span>
-                            </button>
-                        </div>
+                        <h1 class="title"> عنوان</h1>
+                        <p class="mb-2">زیر تیتر</p>
+                        <button class="button is-black">دکمه اصلی صفحه</button>
                     </div>
+                    <a class="buttons is-centered" href="https://google.com" target="_blank">ارسال دعوتنامه</a>
+                    <button class="button is-info">بازگشت</button>
+                    <button class="button is-success">گزارش آزمون</button>
+
+                    <div>
+                        <p class="mt-4">انتخاب مؤلف</p>
+                        <span class="tag">
+                            <span class="icon">
+                                <img src="../img/1.jpg">
+                            </span>
+                            <span>آقای احمد احمدی</span>
+                        </span>
+                        <span class="tag">
+                            <span class="icon">
+                                <img src="../img/2.png">
+                            </span>
+                            <span>خانم صدف گوهری</span>
+                        </span>
+                        <span class="tag">
+                            <span class="icon">
+                                <img src="../img/3.png">
+                            </span>
+                            <span>آقای محمد ادیبی</span>
+                        </span>
+                    </div>
+                    <p class="content is-large mt-3"> نمونه کنترل</p>
+                    <p class="mt-5">جستجو</p>
+                    <div class="field">
+                        <div class="control has-icons-right">
+                          <input class="input is-primary" type="password" placeholder="نام درس / نام استاد" />
+                          <span class="icon is-right">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </span>
+                        </div>
+                      </div>
+                      <p class="has-text-success">راهنما</p>
                 </div>
-                <div class="column is-three-quarters">
-                    <div class="fixed-grid has-2-cols">
+            </div>
+            <div class="column is-three-quarters">
+                <div class="fixed-grid has-2-cols">
+                    <div class="box">
                         <div class="grid">
-                            <div class="cell has-background-success">
+                            <div class="cell has-background-success is-rounded">
                                 <p>تست ستون اول</p>
-                                <button class="button">عرض خودکار</button>
-                                <button class="button">عرض خودکار</button>
+                                <div class="is-flex is-justify-content-space-between">
+                                    <span class="tag-full-width">عرض خودکار</span>
+                                    <span class="tag-full-width">عرض خودکار</span>
+                                </div>
                             </div>
                             <div class="cell has-background-warning">
                                 <p>تست ستون اول</p>
-                                <button class="button">نصف عرض</button>
-                                <button class="button">یک سوم</button>
-                                <button class="button">یک سوم</button>
+                                <div class="is-flex is-justify-content-space-between">
+                                    <span class="tag-full-width">عرض خودکار</span>
+                                    <span class="tag-full-width">عرض خودکار</span>
+                                    <span class="tag-full-width">عرض خودکار</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="box">
-                        <div class="column">
-                            <div class="box has-centered-children">
-                                <div class="field">
-                                    <label class="label">آسان</label>
-                                    <input class="input is-success" type="text">
-                                </div>
-                                <div class="field">
-                                    <label class="label">متوسط متوسط</label>
-                                    <input class="input is-warning" type="text">
-                                </div>
-                                <div class="field">
-                                    <label class="label">سخت</label>
-                                    <input class="input is-danger" type="text">
+                </div>
+                <div class="box">
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <div class="box">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-primary">آسان</span>
+                                        <input class="tag" type="text">
+                                    </div>
+                                    <div class="tags has-addons">
+                                        <span class="tag is-warning">متوسط</span>
+                                        <input class="tag" type="text">
+                                    </div>
+                                    <div class="tags has-addons">
+                                        <span class="tag is-danger">سخت</span>
+                                        <input class="tag" type="text">
+                                    </div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="box">
-                                    <div class="field">
-                                        <label class="label has-background-primary">آسان</label>
-                                        <input class="input is-success" type="text">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-primary">آسان</span>
+                                        <input class="tag" type="text">
                                     </div>
-                                    <div class="field">
-                                        <label class="label">متوسط متوسط</label>
-                                        <input class="input is-warning" type="text">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-warning">متوسط</span>
+                                        <input class="tag" type="text">
                                     </div>
-                                    <div class="field">
-                                        <label class="label">سخت</label>
-                                        <input class="input is-danger" type="text">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-danger">سخت</span>
+                                        <input class="tag" type="text">
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
                 </div>
-
-            </div>
-        </div>
-
-
-
-        <div class="columns">
-            <div class="column is-full">
-                <div class="box is-custom">
-                    <button class="button">یک ستون</button>
-                    <button class="button">یک ستون دوم</button>
-                    <button class="button">نصف عرض</button>
-                    <button class="button">نصف عرض</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column is-half">
-                <div class="box">
-                    <label class="label">تست ستون اول</label>
-                    <button class="button is-success">عرض خودکار</button>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="box">
-                    <label class="label">تست ستون دوم</label>
-                    <button class="button is-success">عرض خودکار</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <div class="box">
-                    <div class="field">
-                        <label class="label">آسان</label>
-                        <input class="input is-success" type="text">
-                    </div>
-                    <div class="field">
-                        <label class="label">متوسط متوسط</label>
-                        <input class="input is-warning" type="text">
-                    </div>
-                    <div class="field">
-                        <label class="label">سخت</label>
-                        <input class="input is-danger" type="text">
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <label class="label">عنوان</label>
-                    <button class="button is-primary custom-button">دکمه اصلی صفحه</button>
-                    <button class="button is-link custom-button">ارسال دعوت نامه</button>
-                    <button class="button is-warning custom-button">گزارش آزمون</button>
-                    <button class="button is-danger custom-button">بازگشت</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <div class="box">
-                    <label class="label">انتخاب مولف</label>
-                    <div class="field">
-                        <button class="button is-active">آقای احمدی</button>
-                        <label class="checkbox">
-                            <input type="checkbox"> خانم صدیق گوهری
-                        </label>
-                        <label class="checkbox">
-                            <input type="checkbox"> آقای محمد ادبی
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <label class="label">نمونه کنترل</label>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="نام درس / نام استاد">
-                    </div>
-                    <button class="button is-primary">جستجو</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="level">
-            <div class="level-left">
                 <div class="box"></div>
                 <div class="box"></div>
                 <div class="box"></div>
                 <div class="box"></div>
                 <div class="box"></div>
-                <div class="box"></div>
-            </div>
-            <div class="level-right">
-                <p>ALi</p>
-            </div>
-        </div>
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>Don't Worry Be Happy</p>
-            </div>
-        </footer>
+                <div class="box">
+                    <button class="button is-warning">نمایش نتیجه</button>
+                </div>
+</body>
+
+</html>
+
+</div>
+
+
+</div>
+</div>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>Don't Worry Be Happy</p>
     </div>
+</footer>
+</div>
 </body>
 
 </html>
