@@ -69,3 +69,8 @@ textarea {
     flex-grow: 1;
     margin-left: 0.5rem;
 }
+
+.tag.is-fullwidth {
+    width: 100%;
+    display: block;
+  }
