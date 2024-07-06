@@ -18,8 +18,8 @@
 <body class="has-background-dark">
     <div class="section is-hidden-mobile">
         <div class="columns">
-            <div class="column">
-                <div class="box p-3">
+            <div class="column is-4">
+                <div class="box p-3 box-is-fullhight">
                     <div class="box-in-box has-background-light">
                         <div class="is-flex is-justify-content-space-between">
                             <p class="has-text-link"><a href="https://google.com" target="_blank">انتخاب سر فصل</a></p>
@@ -46,8 +46,8 @@
                 </div>
             </div>
 
-            <div class="column">
-                <div class="box p-3">
+            <div class="column is-4">
+                <div class="box p-3 box-is-fullhight">
                     <div class="box-in-box has-background-light">
                         <div class="is-flex is-justify-content-space-between">
                             <p>مرجع سوال</p>
@@ -82,8 +82,8 @@
                     </div>
                 </div>
             </div>
-            <div class="column">
-                <div class="box">
+            <div class="column is-4">
+                <div class="box box-is-fullhight">
                     <div class="box-in-box has-background-light">
                         <div class="is-flex is-justify-content-space-between">
                             <p class="has-text-link"><a href="https://google.com" target="_blank">از سال</a></p>
@@ -118,25 +118,27 @@
                     <button class="button is-success">گزارش آزمون</button>
 
                     <div>
-                        <p class="mt-4">انتخاب مؤلف</p>
-                        <span class="tag">
-                            <span class="icon">
-                                <img src="../img/1.jpg">
+                        <p class="mt-4 mb-2">انتخاب مؤلف</p>
+                        <div class="tags">
+                            <span class="tag">
+                                <span class="icon">
+                                    <img src="../img/1.jpg">
+                                </span>
+                                <span>آقای احمد احمدی</span>
                             </span>
-                            <span>آقای احمد احمدی</span>
-                        </span>
-                        <span class="tag">
-                            <span class="icon">
-                                <img src="../img/2.png">
+                            <span class="tag">
+                                <span class="icon">
+                                    <img src="../img/2.png">
+                                </span>
+                                <span>خانم صدف گوهری</span>
                             </span>
-                            <span>خانم صدف گوهری</span>
-                        </span>
-                        <span class="tag">
-                            <span class="icon">
-                                <img src="../img/3.png">
+                            <span class="tag">
+                                <span class="icon">
+                                    <img src="../img/3.png">
+                                </span>
+                                <span>آقای محمد ادیبی</span>
                             </span>
-                            <span>آقای محمد ادیبی</span>
-                        </span>
+                        </div>
                     </div>
                     <p class="content is-large mt-3"> نمونه کنترل</p>
                     <p class="mt-5">جستجو</p>
@@ -155,17 +157,18 @@
                 <div class="fixed-grid has-2-cols">
                     <div class="box">
                         <div class="grid">
-                             <div class="cell has-background-success">
+                            <div class="cell has-background-success">
                                 <p class="pt-2 pr-2">تست ستون دوم</p>
                                 <div class="columns is-marginless">
-                                    <div class="column tag-full-width is-flex is-flex-row-center m-2">عرض خودکار</div>
+                                    <div class="column tag-full-width is-flex is-flex-row-center m-2 ">عرض خودکار</div>
                                     <div class="column tag-full-width is-flex is-flex-row-center m-2">عرض خودکار</div>
                                 </div>
                             </div>
                             <div class="cell has-background-warning">
                                 <p class="pt-2 pr-2">تست ستون دوم</p>
                                 <div class="columns is-marginless">
-                                    <div class="column is-6 tag-full-width is-flex is-flex-row-center m-2">عرض خودکار</div>
+                                    <div class="column is-6 tag-full-width is-flex is-flex-row-center m-2">عرض خودکار
+                                    </div>
                                     <div class="column tag-full-width is-flex is-flex-row-center m-2">عرض خودکار</div>
                                     <div class="column tag-full-width is-flex is-flex-row-center m-2">عرض خودکار</div>
                                 </div>
@@ -178,35 +181,54 @@
                         <div class="columns">
                             <div class="column is-one-third">
                                 <div class="box">
-                                    <div class="tags has-addons">
-                                        <span class="tag is-primary">آسان</span>
-                                        <input class="tag" type="text">
+                                    <div class="columns is-marginless  is-gapless">
+                                        <div
+                                            class="column is-3 tag-full-width is-flex is-flex-row-center has-background-success p-2 mb-2">
+                                            آسان
+                                        </div>
+                                        <div class="column tag-full-width is-flex is-flex-row-center p-0 mb-2"></div>
                                     </div>
-                                    <div class="tags has-addons">
-                                        <span class="tag is-warning">متوسط</span>
-                                        <input class="tag" type="text">
+                                    <div class="columns is-marginless  is-gapless">
+                                        <div
+                                            class="column is-3 tag-full-width is-flex is-flex-row-center p-0 mb-2 has-background-warning">
+                                            متوسط
+                                        </div>
+                                        <div class="column tag-full-width is-flex is-flex-row-center p-0 mb-2"></div>
                                     </div>
-                                    <div class="tags has-addons">
-                                        <span class="tag is-danger">سخت</span>
-                                        <input class="tag" type="text">
+                                    <div class="columns is-marginless  is-gapless">
+                                        <div
+                                            class="column is-3 tag-full-width is-flex is-flex-row-center mb-2 p-0 has-background-danger">
+                                            سخت
+                                        </div>
+                                        <div class="column tag-full-width is-flex is-flex-row-center mb-2 p-0"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="box">
-                                    <div class="tags has-addons">
-                                        <span class="tag is-primary">آسان</span>
-                                        <input class="tag" type="text">
+                                    <div class="columns is-marginless  is-gapless">
+                                        <div
+                                            class="column is-2 tag-full-width is-flex is-flex-row-center has-background-success p-0 mb-2">
+                                            آسان
+                                        </div>
+                                        <div class="column is-4 tag-full-width is-flex is-flex-row-center p-0 mb-2"></div>
                                     </div>
-                                    <div class="tags has-addons">
-                                        <span class="tag is-warning">متوسط</span>
-                                        <input class="tag" type="text">
+                                    <div class="columns is-marginless  is-gapless">
+                                        <div
+                                            class="column is-2 tag-full-width is-flex is-flex-row-center p-0 mb-2 has-background-warning">
+                                            متوسط
+                                        </div>
+                                        <div class="column is-4 tag-full-width is-flex is-flex-row-center p-0 mb-2"></div>
                                     </div>
-                                    <div class="tags has-addons">
-                                        <span class="tag is-danger">سخت</span>
-                                        <input class="tag" type="text">
+                                    <div class="columns is-marginless  is-gapless">
+                                        <div
+                                            class="column is-2 tag-full-width is-flex is-flex-row-center mb-2 p-0 has-background-danger">
+                                            سخت
+                                        </div>
+                                        <div class="column is-4 tag-full-width is-flex is-flex-row-center mb-2 p-0"></div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -219,21 +241,14 @@
                 <div class="box">
                     <button class="button is-warning">نمایش نتیجه</button>
                 </div>
+            </div>
+        </div>
+    </div>
 </body>
-
-</html>
-
-</div>
-
-
-</div>
-</div>
 <footer class="footer">
     <div class="content has-text-centered">
         <p>Don't Worry Be Happy</p>
     </div>
 </footer>
-</div>
-</body>
 
 </html>
