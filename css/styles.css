@@ -95,3 +95,11 @@ textarea {
     display: inline-block;
     vertical-align: top;
   }
+
+  
+@media (min-width: 768px) and (max-width: 1200px) {
+  .custom-font-size {
+    font-size: 0.6rem;
+    margin: 0.1rem !important;
+  }
+}
